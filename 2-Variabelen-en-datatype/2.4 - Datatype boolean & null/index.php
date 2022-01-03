@@ -11,3 +11,4 @@ echo "de waarde van test is: " . $test . "<br>";
 
 </body>
 </html> 
+.
