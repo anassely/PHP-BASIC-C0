@@ -21,21 +21,21 @@ if($test1===$test2){
     echo "Het is identiek aan elkaar";
 }
 else{
-    echo"jeetje mineetje dit is ook niet identiek False" . "<br>";
+    echo"dit is ook niet identiek False" . "<br>";
 }
 
 if($test1>$test2){
     echo "test1 niet groter dan test2";
 }
 else{
-    echo "Muchas gracis afisotros SSSSIIIIUUUUUUUU" . "<br>";
+    echo "thanks man" . "<br>";
 }
 
 if($test1<$test2){
     echo "Test2 is niet kleiner dan test1 True". "<br>";
 }
 else{
-    echo"deze is ook weer False wat jammer";
+    echo"deze is ook weer False ";
 }
 
 if($test1>=$test2){
