@@ -1,3 +1,6 @@
 <?php
-$waarde = "nice man";
+$waarde = "hier staat php code";
 var_dump($waarde);
+
+
+?>
