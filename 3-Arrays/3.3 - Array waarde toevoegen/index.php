@@ -1,7 +1,8 @@
 <?php
-$myHeroes = ['snelman' , 'thanoos' , 'megachin'];
-echo $myHeroes[0] . "<br>";
-echo $myHeroes[1] . "<br>";
-echo $myHeroes[2] . "<br>";
-array_push($myHeroes, 'GT');
-print_r($myHeroes);
+$myheroes = array('miles', 'jokah', 'toxin');
+array_push($myheroes, 'superman');
+echo "<pre>";
+print_r($myheroes);
+echo "</pre>";
+
+?>
