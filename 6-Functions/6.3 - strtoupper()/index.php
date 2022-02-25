@@ -1,9 +1,11 @@
-<?php
-function telAlleWoorden(){
-    $lengtezin ="Mijn blauwe auto is een mooie snelle wagen";
 
-    echo strlen($lengtezin);
+<?php
+
+function telAlleWoorden(){
+    $auto = "Mijn blauwe auto is een mooie snelle wagen";
+    $lengtezin = strlen($auto);
+    echo ($lengtezin);
+
 }
 
 telAlleWoorden();
-?> 

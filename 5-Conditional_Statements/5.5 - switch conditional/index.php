@@ -1,23 +1,23 @@
+
 <?php
-$score = 0;
-switch($score){
-    case 10;
-    echo "Nog even oefenen dan haal je vast alle punten!";
+
+$score = 5;
+
+switch($score) {
+    case 10:
+    echo "Wow wat een fantastische score!";
     break;
-    case 8;
-    echo "Wow bijna alle punten nog  te gaan!";
+    case 9:
+    echo "Wow bijna alle punten nog 1 te gaan!";
     break;
-    case 6;
-    echo "Ga zo door!";                                  
-    break;
-    case 4;
+    case 8:
     echo "Goed bezig, bijna alle punten!";
     break;
-    case 2;
-    echo "Wow bijna alle punten nog 2 te gaan!";
+    case 7:
+    echo "Ga zo door!";
     break;
-    case 0;
-    echo "Gefeliciteert je hebt alles gehaald!";
-    break;
+    default:
+    echo "Nog even oefenen dan haal je vast alle punten!";
 }
+
 ?>
